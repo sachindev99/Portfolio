@@ -1,0 +1,213 @@
+body
+{
+    /*overiding the default styleof browser */
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+h1
+{
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /*line-height: 2;*/
+    /*width: 10%;
+     as the block element have a width we need to use auto to keep it in center 
+    margin: 0 auto 0 auto; */
+    
+}
+.footer-link
+{
+    color: #11999E;
+    text-decoration: none;
+    margin:35px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+    margin: 0;
+    line-height: 2;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 1.875rem;
+    margin: 50px 0px 0px 0px;
+    font-weight: normal;
+}
+h3 a
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-decoration: none;
+}
+h3
+{
+    color: #11999E;
+}
+
+.bottom-cloud
+{
+    position: absolute;
+    left:500px;
+    bottom: 300px;
+}
+
+.top-cloud
+{
+   position: absolute;
+   right: 600px;
+   top: 30px;
+}
+#top-container
+{
+    background-color: #e0ebe7;
+    position: relative;
+    padding-top: 100px;
+}
+
+.topnav a
+{
+    padding: 0px 40px 0px 0px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-decoration: none;
+}
+.topnav
+{
+    float: right;
+    width: 20%;
+    margin-right: 50px;
+}
+
+#middle-container
+{
+    margin: 80px 0px;
+}
+
+.bottom-container
+{
+  background-color:#66BFBF;
+  padding: 60px 0px 60px 0px;
+}
+
+.pro
+{
+    text-decoration: underline;
+}
+
+.intro
+{
+    width:30%;
+    margin: auto;
+}
+
+.web-skills
+{
+    width: 25%;
+    border-radius:20px;
+    float: left;
+    margin-right: 30px;
+}
+
+.dsa-skills
+{
+    width: 25%;
+    border-radius:20px;
+    float: right;
+    margin-left: 30px;
+    
+}
+.profile-image
+{
+    width: 10%;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 20px auto 100px auto;
+    text-align: left;
+    padding: 20px;
+
+}
+
+hr
+{
+    border-style: none; /* change the entire border style to none */
+    border-top-style: dotted; /* just change the top border style to dotted */
+    width:3%;
+    border-color: grey;
+    border-width: 6px; /* to make dots bigger */ ;
+    margin-top: 40PX;
+}
+.discuss-text
+{
+    margin-bottom: 50px;;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+a:hover
+{
+    color: #313636;
+}
+
+.copyright
+{
+    color: #eaf6f6;
+    padding: 25px 0px;
+}
+.logo
+{
+    position: fixed;
+    top: 50px;
+    left: 340px;
+    width: 5%;
+    background-color: #ffffff88;
+    border-radius: 100%;
+}
+
+.top-arrow
+{
+    width: 1.5%;
+    float: right;
+    margin-right: 20px;
+}
+.top-arrow:hover
+{
+    background-color: #313636;
+}
+.scroll
+{
+    scroll-behavior: smooth;
+}
